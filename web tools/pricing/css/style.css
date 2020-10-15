@@ -1,0 +1,88 @@
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+    transition: all .8s;
+}
+
+/*  add  scroll class */
+nav.scroll {
+    padding: 0;
+    background-color: grey !important;
+    color: white !important;
+    font-size: 18px !important;
+
+}
+
+.navbar-brand.scroll,
+.navbar-container.scroll,
+.navbar.fixed-top.scroll,
+.navbar-container {
+    transition: all .8s;
+}
+
+/* Hero Section */
+#hero {
+    background: #726D6D;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        background-color: #726D6D;
+        border:1px solid;
+        color: #fff;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+}
+.jumbotron{
+    margin-bottom: 0px !important;
+}

@@ -1,0 +1,49 @@
+body{
+    background: url(../img/body.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center center;
+background-size: cover;
+
+
+}
+.text{
+    color: white;
+    text-align: center;
+}
+
+.set{
+    display: inline-block;
+    margin-left: 45px;
+    color: #fff;
+    font-size: 42px;
+}
+.btn-outline-primary{
+    border-radius: 20px !important;
+}
+h1{
+    font-size: 42px;
+}
+p{
+    font-size: 21px;
+}
+.navbar .navbar-brand{
+    color: #fff
+}
+
+#navbarSupportedContent > ul > li.nav-item .nav-link{ 
+    color: #fff 
+
+}
+#navbarSupportedContent > ul > li.nav-item .nav-link:hover{
+    border-bottom:1px solid black
+}
+.stopwatch{
+    margin-top: 15px;
+    font-size:7rem;
+    font-family: monospace;
+    border: 5px solid ;
+    border-radius: 50px;
+    background-color: black;
+    color:#fff;
+}

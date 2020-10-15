@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.section1 {
+    margin: auto;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+
+.blog-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px
+}
+
+.section1 h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center
+}
+
+.profile-img {
+   
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 0px;
+     
+     transition: 1.2s;
+}
+.profile-img:hover{
+    transition: 1.2s;
+     transform: scale(1.2);
+}
+
+.img-fluid {
+    border-radius: 20px;
+    
+}
+img{
+    transition: 1.2s;
+}
+img:hover{
+    transition: 1.2s;
+     transform: scale(1.2);
+}
+.navbar-brand:hover{
+    border-bottom: 1px solid gray;
+}
+.nav-item .nav-link{
+    margin-right: 15px;
+}
+ .nav-item .nav-link:hover{
+     transition: 0.7s;
+    border-radius: 5px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    
+}
+
+
+
+#statement {
+    background: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url("statementBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#statement {
+    height: 310px;
+}
+
+#statement h4 {
+    color: white;
+    padding-top: 70px;
+
+}
+
+
+
+
+#statement2 {
+    background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .8)), url("hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#statement2 {
+    height: 310px;
+}
+
+#statement2 h4 {
+    color: white;
+    padding-top: 70px;
+
+}
+
+
+.blog-img {
+    margin-left: 50px !important;
+}
+
+
+
+
+
+/*section2*/
+
+.section2 {
+    background-color: #F0F0F0;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.header {
+    text-align: center
+}
+
+.header-text {
+    margin-top: 2rem;
+    margin-left: 15px;
+}
+
+
+.button {
+    float: right;
+
+}
+.button:hover{
+    color: #fff !important;
+    background-color: black !important;
+}
+
+.buton {
+    border: 1px solid black !important;
+    height: 40px;
+    margin-left: 190px;
+    width: 50%;
+}
+.space{
+   margin-bottom:  10px
+}

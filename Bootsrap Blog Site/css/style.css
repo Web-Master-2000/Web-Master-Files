@@ -1,0 +1,8 @@
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+    transition: all .8s;
+}
