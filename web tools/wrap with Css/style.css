@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    
+    
+}
+ 
+.img{
+    position: relative;
+    overflow: hidden
+}
+.img1{
+    height: 250px;
+    width: 300px;
+   
+   
+    float: right;
+    margin: 20px
+}
+.img2{
+    height: 250px;
+    width: 300px;
+   
+    float: left;
+    margin: 20px
+}
+p,h1,h2{
+    color: #fff;
+}.paragraph{
+    margin-bottom: 10px;
+    text-align: center
+}
+.secound{
+    text-align: center;
+    position: relative
+}
